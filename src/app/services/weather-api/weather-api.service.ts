@@ -6,7 +6,7 @@ import { HttpClient } from '@angular/common/http';
 export class WeatherService {
 
     apiBaseUrl: string = 'http://api.weatherstack.com/';
-    apiKey: string = process.env.NG_APP_API_KEY;
+    apiKey: string = 'dc7110fa625fe0bda929ce2bffef3937' // it's a free api so i dont wanna make a backend lol
 
     constructor(
         private http: HttpClient,
